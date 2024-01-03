@@ -17,9 +17,13 @@ h3 {
 }
 
 button {
+    width: 30vw;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;;
     background-color: white;
-
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -30,6 +34,8 @@ button {
 .buttons {
     width: 100vw;
     height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .etch-a-sketch {
